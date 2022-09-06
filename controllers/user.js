@@ -52,7 +52,7 @@ const usersPost = async (req, res = response) => {
     await usuario.save();
 
     res.json({
-        "msg": "Usuario creado",
+        "msg": "Usuario creado existosamente",
         usuario
     });
 }
