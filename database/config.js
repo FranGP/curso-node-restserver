@@ -11,7 +11,7 @@ const dbConnection = async() => {
         console.log('connected');
     }catch (err){
         console.log(err);
-        throw new Error('Error de conexión en la BD');
+        throw new Error('Error de conexión en la BD.');
     }
 }
 
